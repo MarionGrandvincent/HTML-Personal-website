@@ -336,7 +336,7 @@ a.menu-item {
 .menu-open {
   display: none;
 }
-.info-bulle {
+.menu-item.active .info-bulle {
     margin-top: 115px;
     opacity: 0;
     background-color:rgba(0,0,0,0.8);
@@ -346,11 +346,11 @@ a.menu-item {
     z-index: 3;
     text-align: center;
 }
-.info-bulle p {
+.menu-item.active .info-bulle p {
     font-size: 16px;
     font-weight: 300;
 }
-.info-bulle:before {
+.menu-item.active .info-bulle:before {
     z-index: -1;
     content:"";
     height: 25px;
@@ -367,7 +367,7 @@ a.menu-item {
     right: 0;
     margin: auto;
 }
-.menu-item:hover .info-bulle {
+.menu-item.active:hover .info-bulle {
     opacity: 1;
 }
 
