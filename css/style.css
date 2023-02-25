@@ -349,6 +349,7 @@ a.menu-item {
 .menu-item.active .info-bulle p {
     font-size: 16px;
     font-weight: 300;
+	display:none;
 }
 .menu-item.active .info-bulle:before {
     z-index: -1;
@@ -369,6 +370,9 @@ a.menu-item {
 }
 .menu-item.active:hover .info-bulle {
     opacity: 1;
+}
+.menu-item.active:hover .info-bulle p{
+display:block;
 }
 
 .hamburger {
