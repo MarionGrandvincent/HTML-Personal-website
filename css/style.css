@@ -336,7 +336,11 @@ a.menu-item {
 .menu-open {
   display: none;
 }
+.menu-item .info-bulle {
+	display:none;
+}
 .menu-item.active .info-bulle {
+	display:block;
     margin-top: 115px;
     opacity: 0;
     background-color:rgba(0,0,0,0.8);
@@ -349,7 +353,6 @@ a.menu-item {
 .menu-item.active .info-bulle p {
     font-size: 16px;
     font-weight: 300;
-	display:none;
 }
 .menu-item.active .info-bulle:before {
     z-index: -1;
